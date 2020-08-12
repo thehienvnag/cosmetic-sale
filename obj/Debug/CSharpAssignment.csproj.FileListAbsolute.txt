@@ -1,0 +1,36 @@
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\CSharpAssignment.dll.config
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\CSharpAssignment.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\CSharpAssignment.pdb
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\Newtonsoft.Json.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\System.Net.Http.Formatting.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\Newtonsoft.Json.xml
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\bin\System.Net.Http.Formatting.xml
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CoreCompileInputs.cache
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CopyComplete
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.pdb
+C:\Users\thehi\OneDrive\Desktop\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.csprojAssemblyReference.cache
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\CSharpAssignment.dll.config
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\CSharpAssignment.dll
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\CSharpAssignment.pdb
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\Newtonsoft.Json.dll
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\System.Net.Http.Formatting.dll
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\Newtonsoft.Json.xml
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\bin\System.Net.Http.Formatting.xml
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.csprojAssemblyReference.cache
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CoreCompileInputs.cache
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CopyComplete
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.dll
+D:\TheHien\FPT FOLDER\SEMESTER FPT\Semester 5\CSharpAssignment\csharp-assignment\obj\Debug\CSharpAssignment.pdb
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\CSharpAssignment.dll.config
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\CSharpAssignment.dll
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\CSharpAssignment.pdb
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\Newtonsoft.Json.dll
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\System.Net.Http.Formatting.dll
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\Newtonsoft.Json.xml
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\bin\System.Net.Http.Formatting.xml
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.csprojAssemblyReference.cache
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CoreCompileInputs.cache
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CopyComplete
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.dll
+C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.pdb
