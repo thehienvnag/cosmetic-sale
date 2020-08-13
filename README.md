@@ -1,3 +1,5 @@
+=> Live Demo at GearHost: http://best-cosmetic-provider.gearhostpreview.com/
+
 # Project Title
 
 This is a group project for class assignment aiming to build an commercial website that provides functionalities for 2 role:
