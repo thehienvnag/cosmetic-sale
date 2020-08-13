@@ -10,10 +10,11 @@ namespace CSharpAssignment.Utils
 {
     public class GoogleUtil
     {
-        public static readonly string CLIENT_ID = "745597423708-8q9mjb8ujig6vrkdm13u41jej85tcbmj.apps.googleusercontent.com";
-        public static readonly string CLIENT_SECRET = "n_vsEMj2FdN8KOiOZsQ6NzSw";
+        public static readonly string CLIENT_ID = "187514593483-fd0usl0fnp7f4gul9fqnsu59808n3et5.apps.googleusercontent.com";
+        public static readonly string CLIENT_SECRET = "A58xsn0M0ImKIvxeKFaoWjLQ";
         public static readonly string GRANT_TYPE = "authorization_code";
-        public static readonly string REDIRECT_URI = "https://localhost:44316/LoginWithGoogle.aspx";
+        //public static readonly string REDIRECT_URI = "https://localhost:44316/LoginWithGoogle.aspx";
+        public static readonly string REDIRECT_URI = "http://best-cosmetic-provider.gearhostpreview.com/LoginWithGoogle.aspx";
         public static readonly string LINK_GET_CODE = "https://accounts.google.com/o/oauth2/auth";
         public static readonly string LINK_GET_TOKEN = "https://accounts.google.com/o/oauth2/token";
         public static readonly string LINK_GET_INFO = "https://www.googleapis.com/oauth2/v1/userinfo";
