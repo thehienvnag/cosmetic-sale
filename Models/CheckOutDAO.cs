@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
 namespace CSharpAssignment.Models
 {
@@ -41,7 +38,7 @@ namespace CSharpAssignment.Models
                 com.Parameters["@paymentType"].Value = paymentType;
                 com.Parameters["@contactPerson"].Value = contactPerson;
                 com.Parameters["@description"].Value = description;
-                if(accountID == -1)
+                if (accountID == -1)
                 {
                     com.Parameters["@accountID"].Value = DBNull.Value;
                 }
@@ -49,7 +46,7 @@ namespace CSharpAssignment.Models
                 {
                     com.Parameters["@accountID"].Value = accountID;
                 }
-                if(discountID == -1)
+                if (discountID == -1)
                 {
                     com.Parameters["@discountID"].Value = DBNull.Value;
                 }

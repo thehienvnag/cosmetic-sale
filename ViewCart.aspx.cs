@@ -1,11 +1,8 @@
 ﻿using CSharpAssignment.DAO;
 using CSharpAssignment.Models;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Text.RegularExpressions;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -15,7 +12,7 @@ namespace CSharpAssignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
             if (!IsPostBack)
             {
                 PanelErrMsgg.Visible = false;
@@ -34,7 +31,7 @@ namespace CSharpAssignment
                     this.EmptyPanel.Visible = false;
                     DataTable dataTable = (DataTable)Session["ShoppingCart"];
                     GridItemCart.DataSource = dataTable;
-                    
+
                     GridItemCart.DataBind();
 
                 }
@@ -72,11 +69,11 @@ namespace CSharpAssignment
                 GridViewRow selectedRow = GridItemCart.Rows[i];
                 TableCell id = selectedRow.Cells[6];
                 TableCell priceText = selectedRow.Cells[5];
-                if(priceText.Text.Length > 0)
+                if (priceText.Text.Length > 0)
                 {
                     price += Convert.ToDouble(id.Text) * Convert.ToDouble(priceText.Text);
                 }
-                
+
             }
             lblTotalAmount.Text = price.ToString();
             return price;
@@ -98,7 +95,7 @@ namespace CSharpAssignment
                     Session["ShoppingCart"] = dataTable;
                     GridItemCart.DataSource = dataTable;
                     GridItemCart.DataBind();
-                    if(dataTable.Rows.Count == 0)
+                    if (dataTable.Rows.Count == 0)
                     {
                         Session.Remove("ShoppingCart");
                     }
@@ -316,7 +313,7 @@ namespace CSharpAssignment
 
                         bool insertDetails = dao.InsertBookingDetails(bookingId, proId, quan);
                     }
-                    if(LblErr.Text.Length == 0)
+                    if (LblErr.Text.Length == 0)
                     {
                         PanelErrMsgg.Visible = false;
                     }

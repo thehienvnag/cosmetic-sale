@@ -34,3 +34,14 @@ C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.csp
 C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CopyComplete
 C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.dll
 C:\Users\thehi\OneDrive\Desktop\csharp-assignment\obj\Debug\CSharpAssignment.pdb
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\CSharpAssignment.dll.config
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\CSharpAssignment.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\CSharpAssignment.pdb
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\Newtonsoft.Json.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\System.Net.Http.Formatting.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\Newtonsoft.Json.xml
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\bin\System.Net.Http.Formatting.xml
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CoreCompileInputs.cache
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\obj\Debug\CSharpAssignment.csproj.CopyComplete
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\obj\Debug\CSharpAssignment.dll
+C:\Users\thehi\OneDrive\Desktop\CSharpProject\csharp-assignment\obj\Debug\CSharpAssignment.pdb

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace CSharpAssignment.Components
 {
@@ -25,9 +18,9 @@ namespace CSharpAssignment.Components
         protected void BtnSearch_Click(object sender, EventArgs e)
         {
             string name = TxtName.Text;
-            
+
             string category = CbCategory.Text;
-            if(category.Equals("-- Select --"))
+            if (category.Equals("-- Select --"))
             {
                 category = "";
             }

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CosmeticSale.Master" AutoEventWireup="true" CodeBehind="ViewCart.aspx.cs" Inherits="CSharpAssignment.ViewCart" %>
+﻿<%@ Page Title="Cart" Language="C#" MasterPageFile="~/CosmeticSale.Master" AutoEventWireup="true" CodeBehind="ViewCart.aspx.cs" Inherits="CSharpAssignment.ViewCart" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CosmeticSale.Master" AutoEventWireup="true" CodeBehind="ManageBookings.aspx.cs" Inherits="CSharpAssignment.ManageBookings" %>
+﻿<%@ Page Title="Manage Bookings" Language="C#" MasterPageFile="~/CosmeticSale.Master" AutoEventWireup="true" CodeBehind="ManageBookings.aspx.cs" Inherits="CSharpAssignment.ManageBookings" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

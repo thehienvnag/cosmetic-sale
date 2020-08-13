@@ -1,12 +1,8 @@
 ﻿using CSharpAssignment.Models;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace CSharpAssignment
@@ -90,7 +86,7 @@ namespace CSharpAssignment
         }
         public string GetCategoryDisription(string categoryName)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=THE-HIEN;Initial Catalog=CSharpAssignment; Integrated Security=SSPI");
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["CSharpAssignmentConnectionString"].ConnectionString);
             string des = null;
             try
             {
@@ -134,8 +130,8 @@ namespace CSharpAssignment
                 dataTable.Columns.Add("Quantity");
                 dataTable.Columns.Add("UnitPrice");
                 dataTable.Columns.Add("Price");
-                
-                
+
+
             }
             // If the Shopping Cart object already exists, you declare to convert the data 
             // type of this object into the DataTable object
@@ -161,7 +157,7 @@ namespace CSharpAssignment
                 dataRow["Quantity"] = "1";
                 dataRow["Price"] = itemPrice;
                 dataRow["UnitPrice"] = itemPrice;
-                
+
                 dataTable.Rows.Add(dataRow);
             }
             // Assign the DataTable object to the Session object
@@ -171,7 +167,7 @@ namespace CSharpAssignment
         }
         protected void DLProduct_ItemCommand(object source, DataListCommandEventArgs e)
         {
-            
+
 
         }
 

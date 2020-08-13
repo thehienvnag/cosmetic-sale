@@ -180,11 +180,11 @@
         <asp:Panel ID="ContainerUserInfo" runat="server" CssClass="nav-item dropdown">
 
             <a aria-expanded="false" class="nav-link dropdown-toggle user-action" data-toggle="dropdown" href="#">
-                <div class="d-flex align-items-center">
-                    <asp:Image CssClass="avatar" ID="PictureBox" runat="server" />
-                    <asp:Button CssClass="btn border rounded-circle px-2 pb-3 bg-white text-danger" Height="30" Width="30" ID="BtnUser" runat="server" Text="" />
-                    <asp:Label CssClass="ml-3" ID="Welcome" runat="server"></asp:Label>
-                </div>
+
+                <asp:Image CssClass="avatar" ID="PictureBox" runat="server" />
+                <asp:Button CssClass="btn border rounded-circle px-2 pb-3 bg-white text-danger" Height="30" Width="30" ID="BtnUser" runat="server" Text="" />
+                <asp:Label CssClass="ml-3" ID="Welcome" runat="server"></asp:Label>
+
 
             </a>
             <div class="dropdown-menu">

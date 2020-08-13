@@ -2,15 +2,11 @@
 using CSharpAssignment.Models;
 using CSharpAssignment.Utils;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Text.RegularExpressions;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace CSharpAssignment
 {
@@ -56,7 +52,7 @@ namespace CSharpAssignment
                     AdminPlaceHolder1.Visible = false;
                 }
             }
-            if(Session["ShoppingCart"] == null)
+            if (Session["ShoppingCart"] == null)
             {
                 PanelQuantity.Visible = false;
             }

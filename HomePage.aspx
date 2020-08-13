@@ -15,6 +15,7 @@
                 <asp:Label ID="CategoryDetail" runat="server" Text="Label"></asp:Label>
             </small>
         </asp:Panel>
+
         <asp:DataList CssClass="container" ID="DLProduct" runat="server" CellPadding="15" RepeatColumns="3" DataKeyField="ID" DataSourceID="SqlDataSource1" Width="70%" Style="margin-top: 1px" OnItemCommand="DLProduct_ItemCommand" ValidateRequestMode="Disabled">
             <ItemTemplate>
                 <div class="thumb-wrapper card" style="max-width: 250px">
@@ -58,5 +59,11 @@
         </asp:DataList>
     </div>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CSharpAssignmentConnectionString %>" SelectCommand="SELECT TOP 6 [Quantity], [Price], [Usage], [Name], [StatusID], [CateID], [ImageLink], [ID] FROM [Product] WHERE CateID = 7 ORDER BY NEWID()"></asp:SqlDataSource>
+
+    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:CSharpAssignmentConnectionString %>" SelectCommand="SELECT TOP(3) [ID], [Name] FROM [Category] WHERE ([ID] &gt; @ID) ORDER BY NEWID()">
+        <SelectParameters>
+            <asp:Parameter DefaultValue="1" Name="ID" Type="Int32" />
+        </SelectParameters>
+    </asp:SqlDataSource>
 
 </asp:Content>

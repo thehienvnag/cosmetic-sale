@@ -1,4 +1,4 @@
-﻿<%@ Page EnableEventValidation="false" Title="" Language="C#" MasterPageFile="~/CosmeticSale.Master" AutoEventWireup="true" CodeBehind="ShowProduct.aspx.cs" Inherits="CSharpAssignment.ShowProduct" %>
+﻿<%@ Page EnableEventValidation="false" Title="Products" Language="C#" MasterPageFile="~/CosmeticSale.Master" AutoEventWireup="true" CodeBehind="ShowProduct.aspx.cs" Inherits="CSharpAssignment.ShowProduct" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

@@ -377,8 +377,8 @@ h4, .carousel .item p, .carousel .item ul {
         position: absolute;
         margin-top: 1px;
         margin-left: 1px;
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 28px;
         border-radius: 2px;
         background-color: #fff;
     }
@@ -417,9 +417,7 @@ h4, .carousel .item p, .carousel .item ul {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    margin: -8px 0;
     float: left;
-    margin-right: 10px;
 }
 
 .footer {
@@ -653,8 +651,7 @@ body {
 }
 
 .avatar {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 1px;
     width: 20px;
 }
 
